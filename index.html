@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ML Systems and AI Infrastructure: Interactive Paper Course</title>
+  <meta name="description" content="Learn 24 foundational ML systems papers part by part, with real-life examples, diagrams, simulations and quizzes. No install needed.">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#papers">Skip to the paper list</a>
+  <div class="wrap">
+    <div class="site-top">
+      <a class="brand" href="./">ML Systems Course</a>
+      <button class="btn ghost small" id="theme" type="button" aria-label="Toggle dark mode">Theme</button>
+    </div>
+
+    <section class="hero">
+      <h1>Learn ML systems papers by playing with them</h1>
+      <p class="lede">24 papers across compilers, runtimes and memory, distributed ML, and inference serving. Each one is a short interactive lesson: read one part, press Next, try a simulation, check yourself, move on.</p>
+      <div class="cta">
+        <a class="btn primary" href="papers/01-tensorflow/index.html">Start with Paper 1: TensorFlow</a>
+        <a class="btn" href="#papers">See all 24 papers</a>
+      </div>
+    </section>
+
+    <section class="how" aria-label="How each lesson works">
+      <div><b>Part by part</b><span>Every paper is split into parts of 2 to 6 short steps. Use Next and Back, or the arrow keys.</span></div>
+      <div><b>Real-life examples first</b><span>You meet each idea in a kitchen, a library or a game before you see the paper's term for it.</span></div>
+      <div><b>Hands-on widgets</b><span>Drag sliders, click graphs, run small simulations. Each widget says whether it shows the paper's data or a toy model.</span></div>
+      <div><b>Quizzes and a reading map</b><span>Predict, check, then read the real paper with a map that tells you what to read closely and what to skim.</span></div>
+    </section>
+
+    <div class="filters" id="filters" role="group" aria-label="Filter papers"></div>
+    <div id="papers"></div>
+
+    <footer class="site-foot">
+      <p>Progress is saved in your browser only. Nothing is uploaded. Lessons teach the ideas in your own reading order, and they point you to the original papers. Always read the original paper too.</p>
+    </footer>
+  </div>
+
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/catalog.js"></script>
+  <script src="assets/js/landing.js"></script>
+</body>
+</html>
