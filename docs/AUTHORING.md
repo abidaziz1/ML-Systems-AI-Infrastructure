@@ -97,6 +97,7 @@ Students will quote your lessons, so treat them like a citation.
 - **Tag the source of everything visual.** `paper` (the authors' numbers), `redrawn` (the authors' figure, redrawn), `original` (our diagram), `toy` (a simulation we invented).
 - **Paraphrase, do not quote** the paper unless you have the PDF open and copy exactly.
 - **Check every "Try it" claim.** Drive the widget in a browser and read the numbers. Several of Paper 1's tasks were rewritten after this check found they were wrong or too weak.
+- **If a toy model supports a claim in the text, keep the experiment in the repo.** Paper 2 puts its simulation in `papers/02-tvm/sim.js` (usable from the browser and from Node) and the experiment behind a sentence of the lesson in `papers/02-tvm/experiments/`. Anyone can rerun it. If the toy contradicts or weakens the paper's claim, say so in the lesson. Do not tune the toy until it agrees with the paper.
 - **If you cannot verify a fact, turn it into a reading task.** "While reading Section 6, note which hardware each experiment used" is honest. A guess stated as fact is not.
 - **Keep opinion separate.** Use `callout` kind `note` with the title "Our take", and label judgment columns as opinion.
 - **Write `VERIFY.md`.** List every number, section reference and paraphrase with a checkbox and where to look in the PDF. See `papers/01-tensorflow/VERIFY.md`.

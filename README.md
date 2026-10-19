@@ -6,7 +6,7 @@ The four foundations: **compilers**, **runtimes and memory**, **distributed ML**
 
 ## Start here
 
-Open `index.html` in a browser. No install, no build step, no server needed. Then open **Paper 1: TensorFlow**.
+Open `index.html` in a browser. No install, no build step, no server needed. Then open **Paper 1: TensorFlow** or **Paper 2: TVM**.
 
 To serve it locally instead:
 
@@ -18,7 +18,7 @@ To publish it, enable GitHub Pages (Settings, Pages, deploy from branch, root fo
 
 ## What a lesson looks like
 
-Paper 1 has 12 parts and 37 steps, about 3 hours in total. Every lesson follows the same pattern:
+Paper 1 has 12 parts and 37 steps (about 3 hours). Paper 2 has 9 parts and 29 steps (about 2.5 hours). Every lesson follows the same pattern:
 
 1. **A real-life example first.** You meet the idea in a kitchen, a library or a bakery before you see the paper's term for it.
 2. **The paper's term and what the paper says.** A purple "In the paper" box separates the authors' claims from our explanation.
@@ -34,8 +34,8 @@ Progress is saved in your browser only. Nothing is uploaded.
 
 | Status | Papers |
 |---|---|
-| Ready | 1. TensorFlow (OSDI 2016) |
-| Planned | 2. TVM, 3. Triton, 4. Ansor, 5. MLIR, 6. Clockwork, 7. ZeRO, 8. Megatron-LM (2021), 9. Alpa, 10. Orca, 11. FlashAttention, 12. PagedAttention |
+| Ready | 1. TensorFlow (OSDI 2016), 2. TVM (OSDI 2018) |
+| Planned | 3. Triton, 4. Ansor, 5. MLIR, 6. Clockwork, 7. ZeRO, 8. Megatron-LM (2021), 9. Alpa, 10. Orca, 11. FlashAttention, 12. PagedAttention |
 | Planned | 13. FlexGen, 14. vAttention |
 | Planned | 15. Sarathi-Serve, 16. DistServe, 17. Splitwise, 18. SGLang |
 | Planned | 19. Megatron-LM (2019), 20. Alpa (revisit) |
@@ -57,6 +57,7 @@ assets/
   js/catalog.js            the 24-paper reading list
 papers/
   01-tensorflow/           Paper 1: lesson text, widgets, glossary
+  02-tvm/                  Paper 2: lesson, widgets, a shared cache simulation, an experiment
   _template/               copy this to start a new paper
 docs/AUTHORING.md          how to write the next lesson
 tests/smoke.cjs            browser test for every lesson

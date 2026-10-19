@@ -26,7 +26,7 @@
 
   window.MLS.papers = [
     { n: 1, tier: 't1', f: 'distributed', starter: true, title: 'TensorFlow: A System for Large-Scale Machine Learning', authors: 'Abadi et al.', venue: 'OSDI 2016', id: 'tensorflow-osdi16', lesson: 'papers/01-tensorflow/' },
-    { n: 2, tier: 't1', f: 'compilers', starter: true, title: 'TVM: An Automated End-to-End Optimizing Compiler for Deep Learning', authors: 'Chen et al.', venue: 'OSDI 2018' },
+    { n: 2, tier: 't1', f: 'compilers', starter: true, title: 'TVM: An Automated End-to-End Optimizing Compiler for Deep Learning', authors: 'Chen et al.', venue: 'OSDI 2018', id: 'tvm-osdi18', lesson: 'papers/02-tvm/' },
     { n: 3, tier: 't1', f: 'compilers', starter: true, title: 'Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations', authors: 'Tillet et al.', venue: 'MAPL / PLDI 2019' },
     { n: 4, tier: 't1', f: 'compilers', starter: true, title: 'Ansor: Generating High-Performance Tensor Programs for Deep Learning', authors: 'Zheng et al.', venue: 'OSDI 2020' },
     { n: 5, tier: 't1', f: 'compilers', title: 'MLIR: Scaling Compiler Infrastructure for Domain Specific Computation', authors: 'Lattner et al.', venue: 'CGO 2021' },
